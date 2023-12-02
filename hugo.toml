@@ -24,6 +24,12 @@ defaultcontentlanguage = "en"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
 [[params.social]]
 name = "LinkedIn"
 icon = "fa fa-2x fa-linkedin"
