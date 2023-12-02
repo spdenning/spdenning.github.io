@@ -1,0 +1,57 @@
+baseURL = "https://spdenning.github.io/"
+languageCode = 'en-us'
+title = "Sam Denning's Blog"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+[params]
+  author = "Sam Denning"
+  info = "Software engineer and resident geek"
+  description = "Sam Denning's personal blog"
+  keywords = "blog,developer,personal"
+#  avatarurl = "images/avatar.jpg"
+#  gravatar = "samuel.p.denning@gmail.com"
+
+#  faviconSVG = "/img/favicon.svg"
+#  favicon_32 = "/img/favicon-32x32.png"
+#  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 1
+url = "https://www.linkedin.com/in/spdenning/"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 2
+url = "https://github.com/spdenning/"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[module]
+[[module.imports]]
+    path = "github.com/luizdepra/hugo-coder"
+    disable=false
