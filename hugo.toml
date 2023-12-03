@@ -1,6 +1,6 @@
 baseURL = "https://spdenning.github.io/"
 languageCode = 'en-us'
-title = "Sam Denning's Blog"
+title = "Sam Denning"
 
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -10,7 +10,7 @@ defaultcontentlanguage = "en"
   info = "Software engineer and resident geek"
   description = "Sam Denning's personal blog"
   keywords = "blog,developer,personal"
-#  avatarurl = "images/avatar.jpg"
+  avatarurl = "SamDenning-Profile.jpg"
 #  gravatar = "samuel.p.denning@gmail.com"
 
 #  faviconSVG = "/img/favicon.svg"
